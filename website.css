@@ -1,0 +1,186 @@
+/* Section 1: title/introduction section */
+#section1-title{
+    border: solid rgb(8, 8, 8);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(44, 106, 238, 0.664), rgba(255, 166, 0, 0.644));
+}
+#section1-title .title{
+    font-family: Russo One;
+    font-size: 6em;
+    margin-top: 1em;
+    margin-left: 10%;
+    text-shadow: 2px 2px 4px darkblue;
+    color: rgb(70, 2, 228);
+}
+#line-decoration{
+    background-color: white;
+    height: 2px;
+    width: 30vw;
+    margin-left: 20vw;
+}
+#section1-title #shadowTop{
+    width: 100%;
+    height: 1.5em;
+    background-image: linear-gradient(to bottom, rgb(228, 77, 77), rgba(255, 166, 0, 0));
+}
+#section1-title #shadowBottom{
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+    top: 95%;
+    background-image: linear-gradient(to top, rgb(228, 77, 77), rgba(255, 166, 0, 0));
+}
+#nav-container{
+
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+}
+.mini-footer{
+    margin-top: 1em;
+    margin-left: 25vw;
+    font-family: Bebas Neu;
+    color: rgb(68, 67, 67);
+}
+.nav-link-title{
+    width: 100%;
+    margin-top: 2em;
+    font-size: 2.5em;
+    font-family: Abel;
+    color: tomato;
+}
+.nav-item:nth-child(2){
+    margin-left: 4vw;
+}
+.nav-item:nth-child(3){
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+#section1-title .nav-icon{
+    margin: auto;
+    display: block;
+    margin-top: 4em;
+}
+.nav-item{
+    border: solid rgb(113, 114, 113);
+    width: 20%;
+    height: 20em;
+    min-width: 10em;
+    background-color: white;
+}
+.hovered-nav{
+    width: 100%;
+    height: 0%;
+    background-color: violet;
+    margin: auto;
+    margin-top: -15em;
+    transition: height 0.5s;
+    transition-timing-function: ease;
+}
+
+
+/*          PROJECTS        */
+#section2-projects{
+    border: solid black;
+    width: 100%;
+    height: 100%;
+    background-image: url("./section1-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section2-projects .title{
+    margin-top: 1em;
+    font-family: Kalam;
+    font-size: 7em;
+}
+#section2-projects #shadowTop{
+    width: 100%;
+    height: 1.5em;
+    background-image: linear-gradient(to bottom, rgb(228, 77, 77), rgba(255, 166, 0, 0));
+}
+#section2-projects #shadowBottom{
+    position: relative;
+    width: 100%;
+    height: 1.5em;
+    top: 95%;
+    background-image: linear-gradient(to top, rgb(228, 77, 77), rgba(255, 166, 0, 0));
+}
+.card{
+    margin-left: 7%;
+    width: 300px;
+
+    border: dashed;
+   
+}
+#cont{
+    margin-top: 8em;
+    display: flex;
+    border: dashed;
+}
+/* #c2{
+    height: 10em;
+} */
+
+
+/*          SKILLS          */
+#section3-skills{
+    position: relative;
+    border: solid black;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section3-skills .computer-icon{
+    margin-top: 5em;
+    margin-left: 20%;
+    margin-top: -65em;
+}
+#section3-skills .title{
+    position: relative;
+    font-size: 6em;
+    margin: 1.4em 0em 3.2em 0em;
+    font-family: "Press Start 2P";
+}
+.list-group{
+    float: inline-start;
+    margin-left: 10em;
+}
+.cs-tech-icon{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 3em;
+}
+#technologies-group{
+    display: inline-block;
+    margin-left: 28em;
+    margin-top: -18em;
+}
+#coffee-cup{
+    margin-top: -8em;
+    width: 20%;
+    display: block;
+}
+
+
+/*             RESUME        */
+
+
+
+
+/*             CONTACT       */
+#section5-contact{
+    position: relative;
+    border: solid black;
+    width: 100%;
+    height: 110%;
+    background-color: rgb(173, 172, 118);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact-form{
+    margin-top: 3em;
+    margin-left: 40em;
+}
