@@ -7,7 +7,7 @@
 }
 #section1-title .title{
     font-family: Russo One;
-    font-size: 6em;
+    font-size: 600%;
     margin-top: 1em;
     margin-left: 10%;
     text-shadow: 2px 2px 4px darkblue;
@@ -46,7 +46,7 @@
 .nav-link-title{
     width: 100%;
     margin-top: 2em;
-    font-size: 2.5em;
+    font-size: 250%;
     font-family: Abel;
     color: tomato;
 }
@@ -92,7 +92,7 @@
 #section2-projects .title{
     margin-top: 1em;
     font-family: Kalam;
-    font-size: 7em;
+    font-size: 700%;
 }
 #section2-projects #shadowTop{
     width: 100%;
@@ -106,12 +106,17 @@
     top: 95%;
     background-image: linear-gradient(to top, rgb(228, 77, 77), rgba(255, 166, 0, 0));
 }
+#section2-projects .container-fluid .card-title{
+    font-family: Patua One;
+}
 .card{
     margin-left: 7%;
     width: 300px;
-
     border: dashed;
-   
+}
+.card-text{
+    font-family: Abel;
+    font-size: 20px;
 }
 #cont{
     margin-top: 8em;
@@ -140,7 +145,7 @@
 }
 #section3-skills .title{
     position: relative;
-    font-size: 6em;
+    font-size: 600%;
     margin: 1.4em 0em 3.2em 0em;
     font-family: "Press Start 2P";
 }
