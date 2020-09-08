@@ -12,18 +12,18 @@ for(widget of navWidgets){
     navItemHovered++;
 }
 
-let cardEles = document.querySelectorAll('.card')
-for(cardEle of cardEles){
-    let ele = cardEle
-    ele.onmouseenter = function(){
-        // console.log(typeof(window.getComputedStyle(ele).width))
-        ele.style.outline = "solid grey"
-    }
-    ele.onmouseleave = function(){
-        // console.log(typeof(window.getComputedStyle(ele).width))
-        ele.style.outline = "none"
-    }
-}
+// let cardEles = document.querySelectorAll('.card')
+// for(cardEle of cardEles){
+//     let ele = cardEle
+//     ele.onmouseenter = function(){
+//         // console.log(typeof(window.getComputedStyle(ele).width))
+//         ele.style.outline = "solid grey"
+//     }
+//     ele.onmouseleave = function(){
+//         // console.log(typeof(window.getComputedStyle(ele).width))
+//         ele.style.outline = "none"
+//     }
+// }
 
 // for(cardEle of cardEles){
 //     let ele = cardEle
