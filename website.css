@@ -129,6 +129,7 @@
 #cont{
     margin-top: 5em;
     display: flex;
+    padding-left: 5%;
 }
 /* #c2{
     height: 10em;
